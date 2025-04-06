@@ -1,1 +1,1 @@
-rmarkdown::render("github_action_test.Rmd")
+render("github_action_test.Rmd")
