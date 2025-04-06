@@ -17,7 +17,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          R -e 'install.packages(c("dplyr", "knitr"))' # 필요한 R 패키지 설치
+          R -e 'install.packages(c("dplyr", "knitr", "rmarkdown"))' # 필요한 R 패키지 설치
 
       - name: Run R script
         run: Rscript github_action_test.R # 실행할 R 스크립트
